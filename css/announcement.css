@@ -1,0 +1,296 @@
+#panel1 {
+  display: none;
+}
+
+#panel2 {
+  display: none;
+}
+
+#panel3 {
+  display: none;
+}
+
+#panel4 {
+  display: none;
+}
+
+.container-winter {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.read-more {
+  color: white;
+}
+
+.description-page-p {
+   border: 1px solid rgb(190,26,67);
+   padding: 10px;
+   margin-top: 0;
+}
+
+.button-season {
+  width: 100%;
+  background-color: rgba(13,11,44, 1);
+  color: white;
+  font-size: 120%;
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.container-anime-announcement {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-direction: column;
+}
+
+.anime-announcement-name {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.anime-announcement-name:hover {
+  text-decoration: underline;
+}
+
+.container-winter1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container-winter2 {
+  margin-bottom: 20px;
+}
+
+.container-winter3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container-winter4 {
+  margin-bottom: 20px;
+}
+
+.container-season {
+  margin-bottom: 30px;
+}
+
+.read-more-button {
+  margin-left: 25%;
+  width: 50%;
+  background-color: rgb(190,26,67);
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.first-line-tittle3:hover {
+   text-decoration: underline;
+}
+
+/*Основной контент*/
+.container-main {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.main-image-anime {
+  width: 90%;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.main-image-anime:hover {
+ box-shadow: 0 0 3px 3px rgb(190,26,67);
+}
+
+.div-h4-anime-name-mini {
+  display: none;
+}
+
+.latest-updates {
+  text-align: center;
+  font-size: 200%;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 65.5%;
+}
+
+.hr-main {
+  width: 99.7%;
+  height: 2px;
+  color: rgb(163, 223, 238);
+  background-color: rgb(163, 223, 238);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.white-font {
+  color: white;
+}
+
+
+
+/*Медиа до 1200*/
+@media (max-width: 1200px) {
+  .latest-updates {
+    font-size: 150%;
+    margin-bottom: 3px;
+  }
+}
+
+
+
+/*Медиа до 992*/
+@media (max-width: 992px) {
+    .OurFavoriteAnime-top {
+    font-family: FontForTopIcon;
+    font-size: 140%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(190,26,67);
+    text-shadow: 3px 4px 5px rgb(163, 223, 238);
+  }
+
+  .container-for-top-name {
+    position: absolute;
+    top: 0%;
+    left: 27%;
+  }
+}
+
+
+
+/*Медия до 768px*/
+@media (max-width: 768px) {
+  .container-for-top-name {
+    display: none;
+  }
+
+  .container-for-top-icon {
+    display: none;
+}
+
+  .latest-updates {
+    font-size: 140%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .button-season {
+    font-size: 100%;
+  }
+}
+
+
+
+/*Медия до 550px*/
+@media (max-width: 550px) {
+  .button-season {
+    padding: 5px;
+  }
+
+  .hr-main {
+    height: 0.1px;
+  }
+
+  .container-main {
+    margin: 0;
+  }
+
+  .latest-updates {
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .main-image-anime {
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 5%;
+  }
+}
+
+
+
+/*Медия до 400px*/
+@media (max-width: 400px) {
+  .read-more-button {
+  margin-left: 5%;
+  width: 90%;
+  background-color: rgb(190,26,67);
+  color: white;
+  border: 1px solid white;
+  padding: 0;
+}
+
+  .unnecessary400 {
+    display: none;
+  }
+}
+
+
+
+/*Медия до 350px*/
+@media (max-width: 350px) {
+  .container-main {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    align-self: flex-start;
+    margin: 0;
+  }
+
+  .latest-updates {
+    font-size: 100%;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .hr-main {
+    display: none;
+  }
+
+  .white-font {
+    color: white;
+  }
+
+  .container-winter1 {
+    margin-top: 5px;
+  }
+
+  .main-image-anime {
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 5%;
+  }
+
+  .button-season {
+    font-size: 80%;
+    width: 80%;
+    margin-left: 10%;
+  }
+}

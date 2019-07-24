@@ -1,0 +1,557 @@
+.description-page {
+  border: 2px solid rgb(190,26,67);
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.first-line-tittle5:hover {
+   text-decoration: underline;
+}
+
+
+
+/*Основной контент*/
+.container-main {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.anime-one-of-list {
+  background-color: rgba(13,11,44, 1);
+  padding: 10px;
+  height: 180px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.main-image-anime {
+  height: 180px;
+  float: left;
+  clear: both;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.main-image-anime:hover {
+ box-shadow: 0 0 3px 3px rgb(190,26,67);
+}
+
+.div-h4-anime-name-mini {
+  display: none;
+}
+
+.latest-updates {
+  font-size: 200%;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 15%;
+}
+
+.hr-main {
+  width: 99.7%;
+  height: 2px;
+  color: rgb(163, 223, 238);
+  background-color: rgb(163, 223, 238);
+  margin: 0;
+}
+
+.white-font {
+  color: white;
+}
+
+.h4-anime-name {
+  font-size: 110%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.genre-font {
+  color: rgb(35,48,110);
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.h4-anime-name:hover {
+  text-decoration: underline;
+}
+
+.button-watch {
+  background-color: rgb(190,26,67);
+  cursor: pointer;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  bottom: 10px;
+  border: none;
+}
+
+.button-watch:hover {
+  border: 1px solid white;
+}
+
+.anime-discription-a {
+  text-decoration: none;
+  color: rgb(35,48,110);
+}
+
+.anime-discription-a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*Свойства кнопок перехода на следующие страницы*/
+.pages-turning {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-turning {
+  background-color: rgba(13,11,44, 1);
+  border: 1px solid rgb(163, 223, 238);
+  margin-right: 5px;
+}
+
+.button-turning:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+/*Медиа до 2000*/
+@media (max-width: 2000px) {
+  .owl-prev {
+    position: absolute;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 140px;
+  }
+
+  .owl-next {
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 140px;
+  }
+}
+
+
+
+/*Медиа до 1800*/
+@media (max-width: 1800px) {
+  .owl-prev {
+    position: absolute;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 120px;
+  }
+
+  .owl-next {
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 120px;
+  }
+}
+
+
+
+/*Медиа до 1600*/
+@media (max-width: 1600px) {
+  .owl-prev {
+    position: absolute;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+  }
+
+  .owl-next {
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+  }
+}
+
+
+
+/*Медиа до 1400*/
+@media (max-width: 1400px) {
+  .owl-prev {
+    position: absolute;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+  }
+
+  .owl-next {
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+  }
+}
+
+
+/*Медиа до 1200*/
+@media (max-width: 1200px) {
+  .owl-prev {
+    position: absolute;
+    left: -20px;
+    width: 50px;
+    height: 50px;
+    bottom: 90px;
+  } 
+
+  .owl-next {
+    position: absolute;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    bottom: 90px;
+  }
+
+  .p-anime-genre {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .p-anime-description {
+    margin-top: 0;
+  }
+
+  .latest-updates {
+    font-size: 150%;
+    margin-bottom: 3px;
+  }
+
+  .h4-anime-name{
+    font-size: 90%;
+    margin-bottom: 8px;
+  }
+}
+
+
+
+/*Медиа до 992*/
+@media (max-width: 992px) {
+  .OurFavoriteAnime-top {
+    font-family: FontForTopIcon;
+    font-size: 140%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(190,26,67);
+    text-shadow: 3px 4px 5px rgb(163, 223, 238);
+  }
+
+  .container-for-top-name {
+    position: absolute;
+    top: 1.1%;
+    left: 27%;
+  }
+
+  .description-page-p {
+    font-size: 80%;
+  }
+
+  .slide-wrapper {
+    padding-bottom: 0;
+  }
+
+  .latest-updates {
+    font-size: 120%;
+    margin-bottom: 5px;
+  }
+
+  .h4-anime-name{
+    font-size: 75%;
+    margin-bottom: 5px;
+  }
+
+  .p-anime-genre {
+    font-size: 70%;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .p-anime-description {
+    font-size: 70%;
+    margin-top: 0;
+  }
+
+  .button-container-slide {
+    font-size: 70%;
+    padding: 5px;
+  }
+
+  .button-watch {
+    font-size: 70%;
+  }
+
+  .button-turning {
+    font-size: 70%;
+  }
+}
+
+
+/*Медия до 768px*/
+@media (max-width: 768px) {
+  .OurFavoriteAnime-top {
+    font-family: FontForTopIcon;
+    font-size: 130%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(190,26,67);
+    text-shadow: 3px 4px 5px rgb(163, 223, 238);
+  }
+
+  .container-for-top-name {
+    position: absolute;
+    top: 5%;
+    left: 17%;
+  }
+
+  .container-for-top-icon {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+  }
+
+  .cat {
+    width: 15%;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .description-page-p {
+    font-size: 65%;
+  }
+}
+
+/*Медия до 680px*/
+  @media (max-width: 680px) {
+  .OurFavoriteAnime-top {
+    font-family: FontForTopIcon;
+    font-size: 130%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(190,26,67);
+    text-shadow: 3px 4px 5px rgb(163, 223, 238);
+  }
+
+  .container-for-top-name {
+    position: absolute;
+    top: 4.5%;
+    left: 17%;
+  }
+
+  .container-for-top-icon {
+    position: absolute;
+    top: 3.5%;
+    left: 4%;
+  }
+
+  .cat {
+    width: 15%;
+    height: auto;
+    margin-bottom: 0;
+  }
+}
+
+
+
+/*Медия до 650px*/
+@media (max-width: 650px) {
+  .container-for-top-name {
+    display: none;
+  }
+
+  .container-for-top-icon {
+    display: none;
+  }
+}
+
+
+
+/*Медия до 600px*/
+@media (max-width: 600px) {
+  .hr-main {
+    height: 0.1px;
+  }
+
+  .container-main {
+    margin: 0;
+  }
+
+  .latest-updates {
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+
+/*Медия до 550px*/
+@media (max-width: 550px) {
+  .hr-main {
+    height: 0.1px;
+  }
+
+  .container-main {
+    margin: 0;
+  }
+
+  .latest-updates {
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+
+/*Медия до 350px*/
+@media (max-width: 350px) {
+    .anime-discription {
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .container-main {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    align-self: flex-start;
+    margin: 0;
+  }
+
+  .anime-one-of-list {
+    background-color: rgba(13,11,44, 1);
+    padding: 0;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .main-image-anime {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .main-image-anime:hover {
+    box-shadow: 0 0 3px 3px rgb(190,26,67);
+  }
+
+  .latest-updates {
+    font-size: 80%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .hr-main {
+    width: 79%;
+    height: 0.1px;
+    color: rgb(163, 223, 238);
+    background-color: rgb(163, 223, 238);
+    margin-left: 9.9%;
+  }
+
+  .white-font {
+    color: white;
+  }
+
+  .div-h4-anime-name-mini {
+    display: block;
+  }
+
+  .div-h4-anime-name {
+    display: none;
+  }
+
+  .h4-anime-name-mini {
+    font-size: 65%;
+    margin-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  .h4-anime-name-mini:hover {
+    text-decoration: underline;
+  }
+
+  .h4-anime-name:hover {
+    text-decoration: underline;
+  }
+
+  .button-watch {
+    background-color: rgb(190,26,67);
+    cursor: pointer;
+    color: white;
+    margin-top: 3px;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .button-watch:hover {
+    border: 1px solid white;
+  }
+
+  .anime-discription-a {
+    text-decoration: none;
+    color: rgb(35,48,110);
+  }
+
+  .anime-discription-a:hover {
+    text-decoration: underline;
+  }
+
+  .div-h4-anime-name {
+    font-size: 50%;
+  }
+
+  .p-anime-genre {
+    display: none;
+  }
+
+  .p-anime-description {
+    display: none;
+  }
+
+  .button-turning {
+    font-size: 40%;
+    padding: 1.5px 1.5px 1.5px 1.5px;
+    margin-right: 2px;
+  }
+}
